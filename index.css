@@ -28,6 +28,7 @@ html{
 }
 .subjects{
   text-align: center;
+  color: #10353d;
 }
 h5{
   padding: 0px;
@@ -40,6 +41,7 @@ h4{
 .need-borders{
   border-left: solid 5px;
   border-radius: 5px;
+  border-color: #1b5765;
   /* text-align: center; */
 }
 .need-borders-right{
@@ -66,10 +68,18 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
-a:hover {
+.vitrin:hover {
   font-size: 25px;
   font-weight: bold;
   color: #e6ffb3;
+  text-decoration: none;
+  /* text-shadow: 2px 2px 15px white; */
+  /* color: inherit; */
+}
+.subvitrin:hover {
+  /* font-size: 25px;
+  font-weight: bold; */
+  color: #2b8ba1;
   text-decoration: none;
   /* text-shadow: 2px 2px 15px white; */
   /* color: inherit; */
