@@ -27,6 +27,11 @@ const links = [
   to: "/portfolio",
   active: "portfolio",
  },
+ {
+  name: "Interview Cheat Sheet",
+  to: "/interview",
+  active: "interview",
+ },
 ];
 
 export default function Navbar({ darkMode, handleClick }) {

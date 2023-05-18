@@ -29,6 +29,44 @@ export const info = {
  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
  gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
  baseColor: colors[0],
+ interviews: [
+  {
+   companyAnagram: "TechnologiStfy",
+   languages: ["C#", "ReactJs", "SQL"],
+   questions: [
+    {
+     Q: "We have all the numbers from 1 to n in an array and only a number is duplicated -> How to find that number?",
+     A: "I used a Dict for that, but then the interviewers asked me to optimize the solution several times",
+    },
+    {
+     Q: "How does the dict works? why accessing an element in it is O(1)?",
+     A: "I explained that it goes through the hashmap, and then the conversations went to -> How does hashmap actually works?",
+    },
+    {
+     Q: "Software design patterns:",
+     A: "Get familiar with -Dependency Injection- pattern in C# coding",
+    },
+    {
+     Q: "What is a TASK in C#? How does the code flow act with tasks?",
+     A: "Explaining the await/async behavior and explaining what happens actually in a synchronous vs. asynchronous code block; i.e. how does actually the thread acts",
+    },
+   ],
+  },
+  {
+   companyAnagram: "guiDonsc",
+   languages: ["C#"],
+   questions: [
+    {
+     Q: "What was one of the last conficts you had in your job? How did you settled it down?",
+     A: "<softskill-answer>",
+    },
+    {
+     Q: "What are your personal OKRs? and regarding the technical ones in your current job, what were the last OKRs you owned?",
+     A: "<softskill-answer>",
+    },
+   ],
+  },
+ ],
  miniBio: [
   // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
   {
