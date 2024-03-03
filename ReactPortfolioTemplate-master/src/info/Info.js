@@ -79,7 +79,7 @@ export const info = {
   },
   {
    emoji: "💼",
-   text: "SDE at Criteo",
+   text: "Tech Lead at IQVIA France",
   },
   {
    emoji: "📧",
@@ -115,7 +115,7 @@ export const info = {
   // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
   // Just change the links so that they lead to your social profiles.
  ],
- bio: "Hello! I'm Omid. I'm a software development engineer at Criteo. I studied CompSci: M1 at TU Berlin and M2 at EURECOM, I enjoy spending my free time playing video games, photography and anything that brings visual pleasure to the eyes!",
+ bio: "Hello! I'm Omid. Senior software engineer x Tech lead at IQVIA France. I studied CompSci: M1 at TU Berlin and M2 at EURECOM, I enjoy spending my free time playing video games, photography and anything that brings visual pleasure to the eyes!",
  skills: {
   proficientWith: [
    "C#",
@@ -154,21 +154,42 @@ export const info = {
  portfolio: [
   // This is where your portfolio projects will be detailed
   {
+    title: "Tech Lead @ IQVIA France",
+    live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+    source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+    date: "Nov 2023 - Present",
+    explanation: [
+     "- Technical lead for a new product for a two pharmaceutical clients as beta testers",
+     "- Worked the first months of the product as one of the first two software engineers responsible for creating the POC",
+     "- Worked as the project manager in the shape up methodology to make sure of the consistent delivery to clients.",
+    ],
+    image: "https://logo-marque.com/wp-content/uploads/2021/06/Criteo-Nouveau-Logo.jpg",
+   },
+   {
    title: "Criteo",
    live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
    source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+   date: "Nov 2021 - Nov 2023",
    explanation: [
-    "- Implemented and integrated a new viewability framework called: <b>OMID</b>",
-    "- Trained an ML model, capable of predicting app categories from their descriptions",
-    "- Constant improvements to Video deliveries, pushing for better KPIs",
+    "- Part of Video team/squad; responsible for integration of Video as a new type of ad in Criteo; handling and transforming milions of impressions per day through our a datapipeline to a real-time bidder participating in thousands of video-ad bids per second.",
+    "- Increased viewability measurements up to 50% for global video traffic; by development and deploying two important assets, VPAID and OMID",
+    "- Doubled the potential for Video ads clients; by enabling a new type of video campaigns on Criteo stack, namely third-party video campaign.",
+    "- Activated the partnership with the big SSP partners e.g. Taboola, Xandr (Netflix), etc. ; Throughout implementing new features on Criteo Render engine.",
+    "- Introduced category-based contextual targeting; by training a machine learning model which is capable of predicting mobile-apps categories based on their description on app-stores."
    ],
    image: "https://logo-marque.com/wp-content/uploads/2021/06/Criteo-Nouveau-Logo.jpg",
   },
   {
    title: "Nokia Bell Labs",
+   date: "Mar 2021- Aug 2021",
    live: "https://paytonpierce.dev",
    source: "https://github.com/paytonjewell",
-   explanation: ["This is my sample project"],
+   explanation: [
+    "- Introduced and developed IoTNM, a groundbreaking platform for monitoring IoT networks. By leveraging a micro-service architecture, IoTNM orchestrates and probes IoT devices, enabling enhanced visibility and control to ensure optimal performance and security.",
+    "- Integrated RabbitMQ as a powerful message broker, enhancing platform efficiency, reliability, and scalability for seamless real-time data processing and flexible system architecture.",
+    "- Designed and implemented a scalable and robust solution utilizing a microservice architecture and containerization with Docker. Orchestrated a cohesive ecosystem of microservices, ensuring seamless integration and optimal performance."
+
+   ],
    image: mock2,
   },
   {

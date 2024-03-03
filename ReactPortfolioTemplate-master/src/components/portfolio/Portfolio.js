@@ -15,6 +15,7 @@ export default function Portfolio() {
        source={project.source}
        title={project.title}
        explanation={project.explanation}
+       date={project.date}
       />
      </Grid>
     ))}

@@ -3,7 +3,7 @@ import IconLink from "./IconLink";
 import { Box, Card, Typography, CardContent, CardMedia, CardActionArea } from "@mui/material";
 
 function PortfolioBlock(props) {
- const { image, live, source, title, explanation } = props;
+ const { image, live, source, title, explanation, date } = props;
  return (
   <Box
    display={"flex"}
@@ -15,7 +15,7 @@ function PortfolioBlock(props) {
     <CardActionArea>
      <CardContent>
       <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-       2021 - Present
+       {date}
       </Typography>
       <Typography gutterBottom variant="h5" component="div">
        {title}
